@@ -4,8 +4,8 @@
   "description": "Clareza, presença e execução para quem quer resultados.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#3D1A0A",
-  "theme_color": "#D4622A",
+  "background_color": "#111827",
+  "theme_color": "#9B1C1C",
   "orientation": "portrait",
   "lang": "pt-BR",
   "icons": [

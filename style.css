@@ -1,6 +1,6 @@
 /* ============================================================
    Sparks Foco – Estilos Principais
-   Tema: Laranja queimado, foco, execução
+   Tema: Noir & Crimson — preto grafite, vermelho carmesim, prata
    ============================================================ */
 
 /* ── Reset e Base ── */
@@ -11,17 +11,17 @@
 }
 
 :root {
-  --gradient-start: #3D1A0A;
-  --gradient-end:   #D4622A;
+  --gradient-start: #111827;
+  --gradient-end:   #1F0A0A;
   --card-bg:        #FFFFFF;
-  --primary:        #D4622A;
-  --primary-dark:   #A3411A;
-  --primary-light:  #F09070;
+  --primary:        #9B1C1C;
+  --primary-dark:   #7B1111;
+  --primary-light:  #C0C0C0;
   --text-main:      #1A1A2E;
   --text-secondary: #4A5568;
   --text-light:     #FFFFFF;
   --shadow:         0 8px 32px rgba(0, 0, 0, 0.22);
-  --shadow-btn:     0 2px 8px rgba(212, 98, 42, 0.35);
+  --shadow-btn:     0 2px 8px rgba(155, 28, 28, 0.40);
   --fav-active:     #F59E0B;
   --fav-inactive:   #CBD5E0;
   --card-radius:    20px;
@@ -248,15 +248,15 @@ body {
 }
 
 .btn-share {
-  background: #FFF3EE;
+  background: #F9F9F9;
   color: var(--primary);
-  border: 1.5px solid #FECDBB;
+  border: 1.5px solid #E5E7EB;
 }
 
 .btn-export {
-  background: #FFF8F0;
+  background: #F9F9F9;
   color: var(--primary-dark);
-  border: 1.5px solid #FECDBB;
+  border: 1.5px solid #E5E7EB;
 }
 
 /* ── Área de Anúncios ── */
@@ -289,7 +289,7 @@ body {
 /* ── Banner Premium ── */
 .premium-banner {
   width: 100%;
-  background: linear-gradient(135deg, #3D1A0A 0%, #6B2D10 100%);
+  background: linear-gradient(135deg, #111827 0%, #1F0A0A 100%);
   border-radius: 14px;
   padding: 1rem 1.25rem;
   display: flex;
@@ -316,7 +316,7 @@ body {
 
 .btn-premium {
   background: #FDD835;
-  color: #3D1A0A;
+  color: #111827;
   border: none;
   border-radius: 10px;
   padding: 0.55rem 1rem;
@@ -558,7 +558,7 @@ body {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(61, 26, 10, 0.88);
+  background: rgba(10, 10, 15, 0.92);
   z-index: 1000;
   align-items: flex-end;
   justify-content: center;
@@ -632,7 +632,7 @@ body {
 .feature-check {
   width: 22px;
   height: 22px;
-  background: #FFF3EE;
+  background: #F3F4F6;
   border-radius: 50%;
   display: flex;
   align-items: center;

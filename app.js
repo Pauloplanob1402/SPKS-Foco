@@ -304,19 +304,19 @@ function exportToCanvas(frase, premium) {
 
   /* ── Borda gradiente laranja topo ── */
   const grad = ctx.createLinearGradient(0, 0, W, 0);
-  grad.addColorStop(0, '#D4622A');
-  grad.addColorStop(1, '#F09070');
+  grad.addColorStop(0, '#9B1C1C');
+  grad.addColorStop(1, '#C0C0C0');
   ctx.fillStyle = grad;
   ctx.fillRect(0, 0, W, 12);
 
   /* ── Logo ── */
   ctx.font      = `bold 34px ${FONT}`;
-  ctx.fillStyle = '#D4622A';
+  ctx.fillStyle = '#9B1C1C';
   ctx.textAlign = 'left';
   ctx.fillText('Sparks Foco', MARGIN, 88);
 
   /* ── Linha divisória ── */
-  ctx.strokeStyle = '#FFE0D0';
+  ctx.strokeStyle = '#E5E7EB';
   ctx.lineWidth   = 2;
   ctx.beginPath();
   ctx.moveTo(MARGIN, 112);
@@ -326,7 +326,7 @@ function exportToCanvas(frase, premium) {
   /* ── Calcular linhas para centralizar verticalmente ── */
   const rawLines   = frase.text.split('\n').map(l => l.trim()).filter(Boolean);
   const lineStyles = [
-    { size: 64, weight: 'bold', color: '#D4622A', gap: 40, italic: false },
+    { size: 64, weight: 'bold', color: '#9B1C1C', gap: 40, italic: false },
     { size: 48, weight: '400',  color: '#6B7280', gap: 36, italic: false },
     { size: 54, weight: 'bold', color: '#1A1A2E', gap: 0,  italic: true  },
   ];
@@ -368,7 +368,7 @@ function exportToCanvas(frase, premium) {
   if (premium) {
     const name = State.username || 'Focado';
 
-    ctx.strokeStyle = '#FFE0D0';
+    ctx.strokeStyle = '#E5E7EB';
     ctx.lineWidth   = 1.5;
     ctx.beginPath();
     ctx.moveTo(W / 2 - 140, H - 138);
@@ -381,7 +381,7 @@ function exportToCanvas(frase, premium) {
     ctx.fillText('compartilhado por', W / 2, H - 98);
 
     ctx.font      = `bold 46px ${FONT}`;
-    ctx.fillStyle = '#C9963A';
+    ctx.fillStyle = '#9B1C1C';
     ctx.fillText(name, W / 2, H - 46);
 
   } else {
