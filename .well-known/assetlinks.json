@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.spks.foco",
+      "sha256_cert_fingerprints":
+        ["EF:64:83:A5:DD:3E:AE:F8:68:A5:8D:0E:04:9A:01:ED:4A:71:D0:4B:E7:F9:5E:BC:C3:8E:FC:99:BC:42:9E:2B"]
+    }
+  }
+]
